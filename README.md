@@ -5,12 +5,8 @@ pulic/
 
 routes/
 
-
-### Setup
-
-
 ### Running
 
 > npm start
 
-By default, the server binds to localhost at port 3000.
+By default, the server binds to localhost or 0.0.0.0 at port 3000.
