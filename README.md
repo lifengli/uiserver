@@ -1,6 +1,10 @@
 # uiserver
 Provide static content and routing to UI components
 
+pulic/
+
+routes/
+
 
 ### Setup
 
