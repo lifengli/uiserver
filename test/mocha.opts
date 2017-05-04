@@ -1,0 +1,6 @@
+--recursive
+--compilers js:babel-register
+--require babel-polyfill
+--require ignore-styles
+--reporter spec
+--require test/dom.js

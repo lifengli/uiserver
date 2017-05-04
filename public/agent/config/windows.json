@@ -1,0 +1,6 @@
+{
+  "id": "004",
+  "name": "Windows",
+  "type": "os",
+  "icon": "agent/icon/windows.png"
+}

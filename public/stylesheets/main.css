@@ -1,0 +1,36 @@
+html, body {
+  height: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#container {
+  height: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.no-gutter [class*="col-"] {
+  padding: 0.5px 0.5px 0.5px 0.5px;
+}
+
+[class^="fi-"], [class*=" fi-"] {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* For Better Font Rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#origin_placeholder {
+  width: 100%;
+  text-align: center;
+  padding-top: 100px;
+}

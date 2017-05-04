@@ -1,0 +1,8 @@
+{
+  "agents": [
+    "java.json",
+    "dotnet.json",
+    "linux.json",
+    "windows.json"
+  ]
+}
