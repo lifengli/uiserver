@@ -1,4 +1,7 @@
 # uiserver
+[![VersionEye](https://img.shields.io/versioneye/d/ruby/rails.svg)]()
+[![npm](https://img.shields.io/npm/l/express.svg)]()
+
 Provide static content and routing to front-end UI components
 
 ## serve static content via proxy
