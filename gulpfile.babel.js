@@ -1,7 +1,10 @@
 import gulp from 'gulp';
 import coverageT from 'gulp-jsx-coverage';
 
-const args = require('yargs').argv;
+var args = require('yargs')
+           .usage('Usage: $0 -c [num]')
+           .demandOption(['c'])
+           .argv;
 
 const coverageTask = coverageT.createTask({
     src: [
@@ -18,7 +21,7 @@ const coverageTask = coverageT.createTask({
     threshold: [
       {
         type: 'lines',
-        min: 0
+        min: args.c
       }
     ],
 
@@ -40,6 +43,7 @@ const coverageTask = coverageT.createTask({
     },
 
     cleanup: () => {
+      //todo
     }
 });
 

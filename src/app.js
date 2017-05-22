@@ -8,6 +8,7 @@ import path from 'path';
 
 import user from './router/user';
 import {agent} from './data/agent';
+import homepageConfigData from './data/homepage';
 
 export function appInit() {
   const app = express();
@@ -24,6 +25,9 @@ export function appInit() {
   app.all('/service/agent/*', (req, res) => {
     res.send(JSON.stringify(agent));
   });
+
+  // render homepage content
+  app.use('/api/homepage', homepageConfigData);
 
   app.use(favicon(path.join(__dirname, '../public', 'favicon.ico')));
 
