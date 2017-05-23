@@ -6,7 +6,7 @@
   "license": "",
   "public": true,
   "scripts": {
-    "start": "babel-node ./src/bin/www.js",
+    "start": "babel-node ./src/bin/server.js",
     "auto-start": "nodemon --exec \"npm run lint && npm start\" --ignore public/js",
     "lint": "eslint src test --ext .js,.jsx",
     "test": "mocha",
