@@ -43,6 +43,8 @@ After provide a valid certificate, https server can be used on port 3001
 
 > npm run test
 
+> npm run coverage
+
 ### Build (to-do)
 
 /public/javascrips/ holds the build files
