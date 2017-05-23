@@ -29,7 +29,7 @@ routes/
 ### use a direct response
 > /service/agent/all
 
-### Running
+### Start server
 
 > npm start
 
