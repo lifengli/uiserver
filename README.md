@@ -1,9 +1,9 @@
 # uiserver
 Provide static content and routing to front-end UI components
 
-[![Dependency](https://img.shields.io/david/expressjs/express.svg)](https://github.com/lifengli/uiserver)
-[![license](https://img.shields.io/npm/l/express.svg)](https://github.com/lifengli/uiserver)
-[![Maintenance](https://img.shields.io/maintenance/yes/2017.svg)](https://github.com/lifengli/uiserver)
+[![Dependency](https://img.shields.io/badge/dependencies-up%20to%20date-green.svg)](https://github.com/lifengli/uiserver)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/lifengli/uiserver)
+[![Maintenance](https://img.shields.io/badge/maintained-yes-orange.svg)](https://github.com/lifengli/uiserver)
 [![Pull](https://img.shields.io/badge/pull%20request-welcome-ff69b4.svg)](https://github.com/lifengli/uiserver)
 
 ## serve static content via proxy

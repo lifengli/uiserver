@@ -6,5 +6,4 @@ deploy
 dist
 node_modules
 npm-debug.log
-public/javascripts/bundle.js
-public/javascripts/bundle.js.map
+public/javascripts/
