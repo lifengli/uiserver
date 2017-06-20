@@ -9,7 +9,7 @@ const homepageItems = [
   new PageData({
     id: '1',
     name: 'Navigation',
-    items: ['breadcrumbs', 'tree', 'wizard']
+    items: ['breadcrumbs', 'carousel', 'wizard']
   }),
   new PageData({
     id: '2',
