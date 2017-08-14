@@ -11,6 +11,7 @@ function sendUsers(req, res, next) {
     let max = 0;
 
     res.setHeader('Content-Type', 'application/json');
+    res.setHeader('Access-Control-Allow-Origin', '*');
 
     Object.keys(query).forEach((key) => {
       if (!query.hasOwnProperty(key)) return;

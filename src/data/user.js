@@ -16,6 +16,11 @@ admin.users = [
     id: '1002',
     name: 'user2',
     email: 'user2@admin.com'
+  }),
+  new User({
+    id: '1003',
+    name: 'user3',
+    email: 'user3@admin.com'
   })
 ];
 
