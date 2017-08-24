@@ -9,22 +9,22 @@ const homepageItems = [
   new PageData({
     id: '1',
     name: 'Navigation',
-    items: ['breadcrumbs', 'carousel', 'wizard']
+    items: ['Amazon Rainforest*', 'Pacific Ocean', 'Rocky Mountain']
   }),
   new PageData({
     id: '2',
-    name: 'Layout',
-    items: ['card', 'sidebar', 'topnav']
+    name: 'Natural',
+    items: ['Grand Canyon', 'Mount Everest', 'Victoria Falls']
   }),
   new PageData({
     id: '3',
-    name: 'Container',
-    items: ['grid', 'popover', 'tab']
+    name: 'Technology',
+    items: ['Artificial Intelligence', 'New Energy Source', 'Space Exploration']
   }),
   new PageData({
     id: '4',
-    name: 'Misc',
-    items: ['ellipsis', 'flyout', 'loading']
+    name: 'Artistic',
+    items: ['Abstract Art', 'Conceptual Art', 'Impressionism']
   })
 ];
 
