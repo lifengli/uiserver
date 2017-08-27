@@ -9,6 +9,7 @@ import path from 'path';
 import user from './router/user';
 import {agent} from './data/agent';
 import homepageConfigData from './data/homepage';
+import navigationConfigData from './data/navigation';
 
 export function appInit() {
   const app = express();
@@ -30,6 +31,9 @@ export function appInit() {
 
   // render homepage content
   app.use('/api/homepage', homepageConfigData);
+
+  // render page content
+  app.use('/api/navigation', navigationConfigData);
 
   app.use(favicon(path.join(__dirname, '../public', 'favicon.ico')));
 
