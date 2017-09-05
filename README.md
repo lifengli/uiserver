@@ -15,16 +15,16 @@ Provide static content and routing to dynamic content for front-end UI component
 
 > public/stylesheets
 
-## provide routes in two formats
+## provides routing in two formats
 
-### use a separate router
+### use router for dynamic content
 > /service/user
 
 > /service/user/admin
 
 > /service/user?id=1001
 
-### use a direct response
+### use direct response for static content
 > /service/agent/all
 
 ### Start server
@@ -33,7 +33,7 @@ Provide static content and routing to dynamic content for front-end UI component
 
 By default, the http server binds to localhost or 0.0.0.0 at port 3000
 
-After provide a valid certificate, https server can be used on port 3001
+After provideing a valid certificate, https server can be used on port 3001
 
 ### Testing
 
@@ -43,7 +43,7 @@ After provide a valid certificate, https server can be used on port 3001
 
 > npm run coverage
 
-### Build
+### Build (from basicui)
 
-/public/javascrips/ holds the build bundle file
+/public/javascrips/ holds the built bundle file
 
