@@ -1,5 +1,5 @@
 # uiserver
-Provide static content and routing to front-end UI components
+Provide static content and routing to dynamic content for front-end UI components
 
 [![Dependency](https://img.shields.io/badge/dependencies-up%20to%20date-green.svg)](https://github.com/lifengli/uiserver)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/lifengli/uiserver)
@@ -7,7 +7,6 @@ Provide static content and routing to front-end UI components
 [![Pull](https://img.shields.io/badge/pull%20request-welcome-ff69b4.svg)](https://github.com/lifengli/uiserver)
 
 ## serve static content via proxy
-pulic/
 > public/fonts
 
 > public/images
@@ -17,7 +16,6 @@ pulic/
 > public/stylesheets
 
 ## provide routes in two formats
-routes/
 
 ### use a separate router
 > /service/user
@@ -45,7 +43,7 @@ After provide a valid certificate, https server can be used on port 3001
 
 > npm run coverage
 
-### Build (to-do)
+### Build
 
-/public/javascrips/ holds the build files
+/public/javascrips/ holds the build bundle file
 
