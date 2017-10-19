@@ -9,7 +9,7 @@ const homepageItems = [
   new PageData({
     id: '1',
     name: 'Navigation',
-    items: ['Amazon Rainforest*', 'Pacific Ocean', 'Rocky Mountain']
+    items: ['Amazon Rainforest', 'Pacific Ocean', 'Rocky Mountain']
   }),
   new PageData({
     id: '2',
