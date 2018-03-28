@@ -11,6 +11,7 @@
     "object-curly-spacing": 0,
     "import/prefer-default-export": 0,
     "no-prototype-builtins": 0,
+    "no-return-assign": 0,
     "no-use-before-define": 0,
     "react/jsx-no-bind": 0,
     "react/jsx-space-before-closing": 0

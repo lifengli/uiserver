@@ -25,7 +25,7 @@ Provide static content and routing to dynamic content for front-end UI component
 > /service/user?id=1001
 
 ### use direct response for static content
-> /service/agent/all
+> /service/agent
 
 ### Start server
 
