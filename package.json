@@ -23,8 +23,6 @@
     "http-proxy": "^1.16.2",
     "file-system": "^2.2.2",
     "jade": "~1.11.0",
-    "mocha": "^3.3.0",
-    "mocha-jenkins-reporter": "^0.3.8",
     "morgan": "~1.8.1",
     "node-fetch": "^1.6.3",
     "node-uuid": "^1.4.8",
@@ -52,6 +50,8 @@
     "ignore-styles": "^5.0.1",
     "isparta": "^4.0.0",
     "jsdom": "^10.1.0",
+    "mocha": "^3.3.0",
+    "mocha-jenkins-reporter": "^0.3.8",
     "nodemon": "^1.11.0",
     "yargs": "^8.0.1"
   }

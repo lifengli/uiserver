@@ -32,16 +32,14 @@ export function appInit() {
   app.use('/service/user', user);
 
   // direct response
-  app.all('/service/agent/*', (req, res) => {
+  app.all('/service/agent', (req, res) => {
     res.setHeader('Content-Type', 'application/json');
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.send(JSON.stringify(agent));
   });
 
-  // render homepage content
-  app.use('/api/homepage', homepageConfigData);
-
   // render page content
+  app.use('/api/homepage', homepageConfigData);
   app.use('/api/navigation', navigationConfigData);
   app.use('/api/natural', naturalConfigData);
 
